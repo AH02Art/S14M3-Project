@@ -1,4 +1,4 @@
-GET http://localhost:9000/api/schemes/
+GET http://localhost:9000/api/schemes/90000
 
 ####
 
