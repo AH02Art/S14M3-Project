@@ -2,9 +2,19 @@ GET http://localhost:9000/api/schemes/1
 
 ####
 
-POST http://localhost:9000/api/schemes
+POST http://localhost:9000/api/schemes/
 Content-Type: application/json
 
 {
     "scheme_name": "     Alex     "
+}
+
+####
+
+POST http://localhost:9000/api/schemes/1/steps
+Content-Type: application/json
+
+{
+    "instructions": "         Alex            ",
+    "step_number": -1
 }
