@@ -18,3 +18,9 @@ Content-Type: application/json
     "instructions": "         Alex            ",
     "step_number": -1
 }
+
+####
+
+GET http://localhost:9000/api/schemes/1/steps
+
+####
