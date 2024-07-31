@@ -1,4 +1,8 @@
-GET http://localhost:9000/api/schemes/90000
+GET http://localhost:9000/api/schemes
+
+####
+
+GET http://localhost:9000/api/schemes/1/steps
 
 ####
 
@@ -15,10 +19,6 @@ POST http://localhost:9000/api/schemes/1/steps
 Content-Type: application/json
 
 {
-    "instructions": "         Alex            ",
-    "step_number": -1
+    "instructions": "Rachael",
+    "step_number": 3
 }
-
-####
-
-GET http://localhost:9000/api/schemes/1/steps
